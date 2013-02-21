@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launc her.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/kettle-core-TRUNK-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/commons-compress-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/commons-vfs-20091118-pentaho.jar"/>
+	<classpathentry kind="lib" path="lib/kettle-db-TRUNK-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/kettle-dbdialog-TRUNK-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/kettle-engine-TRUNK-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/kettle-ui-swt-TRUNK-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
