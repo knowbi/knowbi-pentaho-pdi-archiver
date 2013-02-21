@@ -42,13 +42,13 @@ import org.w3c.dom.Node;
 		id="Archiver",
 		name="Archiver.Step.Name",
 		description="Archiver.Step.Description",
-		categoryDescription="BaseStep.Category.Output",
+		categoryDescription="Archiver.Step.Category",
 		image="org/pentaho/di/trans/steps/archiver/Archiver.png",
 		i18nPackageName="org.pentaho.di.trans.steps.archiver",
 		casesUrl="https://github.com/knowbi/Archiver/issues",
-		documentationUrl="https://github.com/knowbi/Archiver/wiki",
+		documentationUrl="https://github.com/knowbi/Archiver/wiki/Documentation",
 		forumUrl="https://github.com/knowbi/Archiver"
-		)
+	)
 public class ArchiverMeta extends BaseStepMeta implements StepMetaInterface {
   
   private static Class<?> PKG = ArchiverMeta.class;

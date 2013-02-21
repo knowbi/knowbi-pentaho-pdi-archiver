@@ -33,7 +33,7 @@ import org.pentaho.di.ui.trans.step.BaseStepDialog;
 
 public class ArchiverDialog extends BaseStepDialog implements StepDialogInterface {
 
-  private static Class<?> PKG = ArchiverDialog.class; // for i18n purposes, needed by Translator2!!   $NON-NLS-1$
+  private static Class<?> PKG = ArchiverMeta.class; // for i18n purposes, needed by Translator2!!   $NON-NLS-1$
 
   private Label        wlStepname;
   private Text         wStepname;
