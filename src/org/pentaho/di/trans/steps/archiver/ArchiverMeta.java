@@ -34,10 +34,6 @@ import org.pentaho.di.trans.step.StepMetaInterface;
 import org.pentaho.di.ui.trans.steps.archiver.ArchiverDialog;
 import org.w3c.dom.Node;
 
-/**
- * @author matt
- *
- */
 @Step(
 		id="Archiver",
 		name="Archiver.Step.Name",
