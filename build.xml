@@ -46,6 +46,11 @@
 	</target>
 	
 	<target name="dist" depends="compile">
+	        <!-- Copy non-Java artifacts to the binary folder alongside the class files -->
+		<copy todir="${dest}">
+                	<fileset dir="${src}" includes="**/*.png **/*.xml **/*.xul **/*txt **/*properties"/>
+                 </copy>
+                 
 		<!-- Create the distribution directory -->
 		<jar 
 			jarfile="${dist}/archiver-step.jar" 
@@ -54,9 +59,9 @@
 			
 			<manifest>
 				<attribute name="Manifest-Version" value="${version}.${DSTAMP}" />
-				<attribute name="Implementation-Title" value="DummyJob" />
+				<attribute name="Implementation-Title" value="Archiver" />
 				<attribute name="Implementation-Version" value="${build.number}" />
-				<attribute name="Implementation-Vendor" value="Vendor" />
+				<attribute name="Implementation-Vendor" value="know.bi" />
 			</manifest>
 
 		</jar>
